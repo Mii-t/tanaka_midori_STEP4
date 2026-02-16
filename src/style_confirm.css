@@ -1,0 +1,49 @@
+/* 全体の背景とフォント */
+body {
+  font-family: "Hiragino Sans", "Meiryo", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* 中央の白いボックス */
+.container {
+  width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* タイトル */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* 表示テキスト */
+p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #444;
+}
+
+/* 戻るボタン */
+button {
+  display: block;
+  margin: 25px auto 0;
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

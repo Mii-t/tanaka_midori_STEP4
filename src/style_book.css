@@ -1,0 +1,71 @@
+/* 全体のレイアウト */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 40px;
+}
+
+/* フォーム全体の箱 */
+form {
+  background: #ffffff;
+  width: 400px;
+  margin: 0 auto;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* 見出し */
+h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* ラベル */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* 入力欄 */
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* ボタン */
+button[type="submit"] {
+  width: 120px !important;
+  height: 34px !important;
+  margin-top: 35px;
+  padding: 0px !important;
+  background-color: #0066cc;
+  border: none;
+  color: white;
+  font-size: 15px !important;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+button[type="submit"]:hover {
+  background-color: #357ab8;
+}
