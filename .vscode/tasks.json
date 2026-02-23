@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start PHP Server",
+      "type": "shell",
+      "command": "docker-compose up",
+      "problemMatcher": []
+    },
+    {
+      "label": "Stop PHP Server",
+      "type": "shell",
+      "command": "docker-compose down",
+      "problemMatcher": []
+    }
+  ]
+}
