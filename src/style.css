@@ -26,10 +26,9 @@ h1 {
   background-color: white;
   padding: 12px 15px;
   border-radius: 5px;
-  max-width: 480px;   /* ← 白い箱の幅をせばめる */
-  margin-left: auto;  /* ← 中央寄せ */
-  margin-right: auto; /* ← 中央寄せ */
-
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form-group label {
