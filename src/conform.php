@@ -24,9 +24,10 @@
 
             $errors = [];
 
-            // 名前のバリデーション
-            if (!preg_match('/^[ぁ-んァ-ヶ一-龥々ーa-zA-Z]+$/u', $name)) {
-                $errors[] = "名前はひらがな、カタカナ、漢字、英字のみ使用できます。";
+            if ($name === "") {
+                $errors[] = "名前を入力してください。";
+                } elseif (!preg_match('/^[ぁ-んァ-ヶ一-龥々ーa-zA-Z]+$/u', $name)) {
+                    $errors[] = "名前はひらがな、カタカナ、漢字、英字のみ使用できます。";
             }
 
             if (!is_numeric($age) || $age < 0 || $age > 150) {
@@ -47,7 +48,7 @@
 
             if ($gender === "") {
                 $errors[] = "性別を選択してください。";
-            } elseif (!preg_match('/^(男|女)$/', $gender)) {
+            } elseif (!preg_match('/^(男性|女性)$/', $gender)) {
                 $errors[] = "性別は「男性」または「女性」で入力してください。";
             }
 
